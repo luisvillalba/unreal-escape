@@ -1,0 +1,3 @@
+/Users/lvillalba/code/unreal-escape/escape/Source/escape/escape.Build.cs
+/Users/lvillalba/code/unreal-escape/escape/Source/escape.Target.cs
+/Users/lvillalba/code/unreal-escape/escape/Source/escapeEditor.Target.cs
