@@ -2,6 +2,8 @@
 
 #pragma once
 
+
+#include "Engine.h"
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "DoorController.generated.h"
@@ -17,8 +19,17 @@ public:
 	UDoorController();
 
 protected:
-	// Called when the game starts
+    void openDoor();
+    void closeDoor();
+    
+    // Called when the game starts
 	virtual void BeginPlay() override;
+
+    UPROPERTY(EditAnywhere)
+    ATriggerVolume* PressurePlate;
+    
+    UPROPERTY(EditAnywhere)
+    AActor* ActorThatOpens;
 
 public:	
 	// Called every frame

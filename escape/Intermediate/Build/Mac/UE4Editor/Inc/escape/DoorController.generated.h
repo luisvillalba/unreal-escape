@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ESCAPE_DoorController_generated_h
 
-#define escape_Source_escape_DoorController_h_13_RPC_WRAPPERS
-#define escape_Source_escape_DoorController_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define escape_Source_escape_DoorController_h_13_INCLASS_NO_PURE_DECLS \
+#define escape_Source_escape_DoorController_h_15_RPC_WRAPPERS
+#define escape_Source_escape_DoorController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define escape_Source_escape_DoorController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDoorController(); \
 	friend struct Z_Construct_UClass_UDoorController_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UDoorController)
 
 
-#define escape_Source_escape_DoorController_h_13_INCLASS \
+#define escape_Source_escape_DoorController_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUDoorController(); \
 	friend struct Z_Construct_UClass_UDoorController_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UDoorController)
 
 
-#define escape_Source_escape_DoorController_h_13_STANDARD_CONSTRUCTORS \
+#define escape_Source_escape_DoorController_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDoorController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDoorController) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define escape_Source_escape_DoorController_h_13_ENHANCED_CONSTRUCTORS \
+#define escape_Source_escape_DoorController_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UDoorController(UDoorController&&); \
@@ -57,26 +57,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDoorController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDoorController)
 
 
-#define escape_Source_escape_DoorController_h_13_PRIVATE_PROPERTY_OFFSET
-#define escape_Source_escape_DoorController_h_10_PROLOG
-#define escape_Source_escape_DoorController_h_13_GENERATED_BODY_LEGACY \
+#define escape_Source_escape_DoorController_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UDoorController, PressurePlate); } \
+	FORCEINLINE static uint32 __PPO__ActorThatOpens() { return STRUCT_OFFSET(UDoorController, ActorThatOpens); }
+
+
+#define escape_Source_escape_DoorController_h_12_PROLOG
+#define escape_Source_escape_DoorController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	escape_Source_escape_DoorController_h_13_PRIVATE_PROPERTY_OFFSET \
-	escape_Source_escape_DoorController_h_13_RPC_WRAPPERS \
-	escape_Source_escape_DoorController_h_13_INCLASS \
-	escape_Source_escape_DoorController_h_13_STANDARD_CONSTRUCTORS \
+	escape_Source_escape_DoorController_h_15_PRIVATE_PROPERTY_OFFSET \
+	escape_Source_escape_DoorController_h_15_RPC_WRAPPERS \
+	escape_Source_escape_DoorController_h_15_INCLASS \
+	escape_Source_escape_DoorController_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define escape_Source_escape_DoorController_h_13_GENERATED_BODY \
+#define escape_Source_escape_DoorController_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	escape_Source_escape_DoorController_h_13_PRIVATE_PROPERTY_OFFSET \
-	escape_Source_escape_DoorController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	escape_Source_escape_DoorController_h_13_INCLASS_NO_PURE_DECLS \
-	escape_Source_escape_DoorController_h_13_ENHANCED_CONSTRUCTORS \
+	escape_Source_escape_DoorController_h_15_PRIVATE_PROPERTY_OFFSET \
+	escape_Source_escape_DoorController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	escape_Source_escape_DoorController_h_15_INCLASS_NO_PURE_DECLS \
+	escape_Source_escape_DoorController_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

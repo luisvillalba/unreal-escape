@@ -13,15 +13,18 @@ UDoorController::UDoorController()
 }
 
 
+void UDoorController::openDoor() {
+    GetOwner()->SetActorRotation(FRotator(0.f,-60.f,0.f));
+}
+
+void UDoorController::closeDoor() {
+    GetOwner()->SetActorRotation(FRotator(0.f,0.f,0.f));
+}
+
 // Called when the game starts
 void UDoorController::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
-    UE_LOG(LogTemp, Warning, TEXT("Hello World!"));
-    UE_LOG(LogTemp, Warning, TEXT("%s"), *GetOwner()->GetName());
-    GetOwner()->SetActorRotation(FRotator(0.f,60.f,0.f));
 }
 
 
@@ -31,5 +34,10 @@ void UDoorController::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+    if (PressurePlate->IsOverlappingActor(ActorThatOpens)) {
+        openDoor();
+    } else {
+        closeDoor();
+    }
 }
 
