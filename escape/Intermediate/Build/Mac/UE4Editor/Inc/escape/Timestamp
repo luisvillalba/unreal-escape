@@ -1,4 +1,2 @@
-/Users/lvillalba/code/unreal-escape/escape/Source/escape/escapeCharacter.h
-/Users/lvillalba/code/unreal-escape/escape/Source/escape/escapeGameMode.h
-/Users/lvillalba/code/unreal-escape/escape/Source/escape/escapeHUD.h
-/Users/lvillalba/code/unreal-escape/escape/Source/escape/escapeProjectile.h
+/Users/lvillalba/code/unreal-escape/escape/Source/escape/DoorController.h
+/Users/lvillalba/code/unreal-escape/escape/Source/escape/escapeGameModeBase.h
