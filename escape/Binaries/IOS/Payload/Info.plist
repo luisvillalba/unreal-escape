@@ -9,22 +9,22 @@
 			<string>com.Epic.Unreal</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>escape</string>
+				<string>MyProject2</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>escape</string>
+	<string>MyProject2</string>
 	<key>CFBundleExecutable</key>
-	<string>escape</string>
+	<string>MyProject2</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.YourCompany.escape</string>
+	<string>com.YourCompany.MyProject2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>escape</string>
+	<string>MyProject2</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
